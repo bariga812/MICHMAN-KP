@@ -20,6 +20,16 @@ Temporary license valid for 24 hours: `FO56-hF8t-TEwq-2424`
 
 For license renewal or purchase, contact `bariga.test@gmail.com` or Telegram `@SUN_FACE1`.
 
+## Crypto donations
+
+The following addresses are provided for voluntary project support. Select the matching network when sending funds.
+
+| Asset | Network | Address |
+| --- | --- | --- |
+| ETH | Ethereum | `0x51262c31651227268D9876416C396acDfF49dB0a` |
+| BTC | Bitcoin | `bc1qnn65zepn7k09rcempdru4y9qfvp80cp0p6qae3` |
+| USDT | TRON (TRC-20) | `TN2QLGS2ys5pVioZ7wkPiGTxcZekDEypvv` |
+
 ### MICHMAN Agent 2.2.0
 
 - Windows installer: `releases/agent-2.2.0/MICHMAN_Agent_Setup_2.2.0.exe`
