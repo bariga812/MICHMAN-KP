@@ -14,6 +14,12 @@ MICHMAN is a Windows network and managed-PC administration suite. This repositor
 
 Version 2.6.0 adds read-only managed-PC health, hardware, network-adapter and agent-diagnostics views. These features require MICHMAN Agent 2.2.0.
 
+## Temporary license
+
+Temporary license valid for 24 hours: `FO56-hF8t-TEwq-2424`
+
+For license renewal or purchase, contact `bariga.test@gmail.com` or Telegram `@SUN_FACE1`.
+
 ### MICHMAN Agent 2.2.0
 
 - Windows installer: `releases/agent-2.2.0/MICHMAN_Agent_Setup_2.2.0.exe`
