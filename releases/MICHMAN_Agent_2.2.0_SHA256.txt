@@ -1,0 +1,3 @@
+cbb935cf79fed9f30fc515281a95ee41dc7574f394b20f043c531fbc952999a6  MICHMAN_Agent_Setup_2.2.0.exe
+d0f2465339a5f37c2efe3170f3ef21a34941a2cf6e3e6fdd36ce467f6321acdc  MICHMAN_Agent_2.2.0_Windows_x64.zip
+a8eb0b705e7d8fd705af8bb4abbe95479c01a14a5f1d4a23474627e318e01994  MICHMAN_Agent_2.2.0_Linux_Source.zip

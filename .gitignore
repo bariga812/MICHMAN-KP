@@ -1,0 +1,25 @@
+# Local configuration and runtime data
+IP.txt
+IP_names.json
+*.db
+*.db-wal
+*.db-shm
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Python build/cache output
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
