@@ -14,6 +14,53 @@ MICHMAN is a Windows network and managed-PC administration suite. This repositor
 
 Version 2.6.0 adds read-only managed-PC health, hardware, network-adapter and agent-diagnostics views. These features require MICHMAN Agent 2.2.0.
 
+## MICHMAN KP overview
+
+MICHMAN KP monitors configured network nodes and groups related network-administration tools in one desktop application.
+
+- **Monitoring:** Displays each node's IP address, name, online state, response time, packet loss, check counts, and last check. The dashboard summarizes online, offline, and pending nodes.
+- **Event log:** Records monitoring starts and stops, node additions, and online/offline transitions with timestamps and details.
+- **Device list:** Shows configured nodes with their names, groups, and priorities, and provides controls for managing the list.
+- **Network scan:** Accepts a CIDR range and presents discovered IP, ping, MAC, and hostname fields. Scanning is user-initiated.
+- **Ports / MAC:** Offers TCP port checks for a selected IP and related MAC details where available.
+- **MikroTik security:** Provides MikroTik security tools after a device and its access credentials have been configured.
+- **ScanWatch:** Displays detected port-scan activity from Windows Firewall logs and provides response controls. Firewall log access depends on Windows permissions.
+- **DFIR / Incident Response:** Organizes incident records, remote collection, timeline, and evidence views.
+- **CSV export:** Exports monitoring data for reporting.
+
+### Screenshots
+
+The screenshots below show the main monitoring view, event history, and configured device list.
+
+#### Monitoring dashboard
+
+![MICHMAN KP monitoring dashboard](docs/screenshots/monitoring.jpg)
+
+The dashboard summarizes node counts and shows each configured IP address, its display name, status, ping, loss, check counts, and last check. Monitoring can be started and stopped from the controls above the table.
+
+#### Event log
+
+![MICHMAN KP event log](docs/screenshots/events.jpg)
+
+The event log records monitoring start and stop events, program exits, node additions, and online/offline changes with timestamps and details.
+
+#### Device list
+
+![MICHMAN KP device list](docs/screenshots/devices.jpg)
+
+The device list shows each monitored address, its friendly name, group, and priority. It also provides controls to add or remove entries.
+
+### Other sections
+
+- **Network scan:** Enter a CIDR range to discover hosts and view IP, ping, MAC, and hostname results.
+- **Ports / MAC:** Select a node to inspect TCP ports and available MAC details.
+- **MikroTik security and router tools:** Configure a MikroTik device first; available actions depend on the device and supplied credentials.
+- **ScanWatch:** Review detected port scanning and firewall log events. Windows permissions affect access to firewall logs.
+- **DFIR / Incident Response:** The workspace has Incidents, Remote collection, Timeline, and Evidence subsections.
+- **CSV export:** Export monitoring information for use in reports.
+
+The screenshots show the interface with the current local configuration. Discovery, port checks, router actions, and remote collection require their respective network settings and permissions.
+
 ## Temporary license
 
 Temporary license valid for 24 hours: `FO56-hF8t-TEwq-2424`
