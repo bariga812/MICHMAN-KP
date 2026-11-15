@@ -79,6 +79,18 @@ The following addresses are provided for voluntary project support. Select the m
 
 ### MICHMAN Agent 2.2.0
 
+MICHMAN Agent provides authenticated access to managed PCs for monitoring and remote assistance. It supports Windows and Linux deployments; the Windows installer registers the agent to start for the current user.
+
+#### Security and encrypted communication
+
+- **Mutual TLS (mTLS):** Agent and console authenticate each other with certificates over the existing mTLS channel. Agent data is available only to an authenticated operator through this channel.
+- **Individual registration:** Install the agent using the per-device registration package generated in the console.
+- **Read-only system modules:** `health`, `hardware`, `network_info`, and `agent_diagnostics` report system health, hardware, network adapters, and agent status. They do not run arbitrary commands or change Windows/Linux configuration.
+- **Remote assistance consent:** The user is asked to approve a Remote Assistance session before it starts. Remote assistance includes screen streaming and keyboard/mouse input.
+- **Transfer and diagnostics:** The agent supports verified multi-file transfer. Diagnostics include mTLS status, port, active sessions and transfers, log size, and certificate expiry. Fleet status reports omit passwords and private keys.
+
+The encryption and authentication details above describe the documented agent-to-console mTLS channel. Review the agent instructions and release notes for setup requirements and the exact scope of each feature.
+
 - Windows installer: `releases/agent-2.2.0/MICHMAN_Agent_Setup_2.2.0.exe`
 - Windows x64 package: `releases/agent-2.2.0/MICHMAN_Agent_2.2.0_Windows_x64.zip`
 - Linux source package: `source/MICHMAN_Agent_2.2.0_Linux_Source.zip`
